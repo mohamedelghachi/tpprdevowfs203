@@ -3,9 +3,9 @@ name: CI - Demo HTML JavaScript
 # Déclenchement du workflow
 on:
   push:
-    branches: [main]
+    branches: [master]
   pull_request:
-    branches: [main]
+    branches: [master]
 
 # Les tâches à exécuter
 jobs:
